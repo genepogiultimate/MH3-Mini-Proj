@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,600|Nunito:400,700");
+.landing-page {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 2567px;
+    width: 1440px;
+  }
+  
+
+
+  
+  .subcribe-to-newsletter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3px;
+    min-height: 94px;
+    width: 611px;
+  }
+  
+  .subscribe-to-our-newsletter {
+    color: var(--black);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-right: 6px;
+    margin-top: 7px;
+    min-height: 27px;
+    width: 299px;
+  }
+  
+  .overlap-group4 {
+    border-radius: 16.5px;
+    height: 33px;
+    margin-right: 7px;
+    position: relative;
+    width: 394px;
+  }
+  
+  .rectangle-11 {
+    background-color: var(--blue-jeans);
+    height: 31px;
+    left: 223px;
+    position: absolute;
+    top: 1px;
+    width: 17px;
+  }
+  
+  .rectangle-9 {
+    border-radius: 16.5px;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 394px;
+  }
+  
+  .subscribe-now {
+    color: var(--white);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    left: 235px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 6px;
+    width: 159px;
+  }
+  
+  .rectangle-10 {
+    background-color: var(--blue-jeans);
+    border-radius: 16px;
+    height: 33px;
+    left: 223px;
+    position: absolute;
+    top: 0;
+    width: 171px;
+  }
+  
+  .want-to-learn-more-a {
+    color: var(--allports);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-right: 6px;
+    min-height: 27px;
+    width: 605px;
+  }
+  
+  .overlap-group10 {
+    align-items: center;
+    background-color: 
+  #065465;
+    display: flex;
+    height: 183px;
+    justify-content: flex-end;
+    margin-top: 114px;
+    min-width: 1440px;
+    padding: 14px 92px;
+  }
+  
+  .download__3_-removebg-preview-2 {
+    align-self: flex-end;
+    height: 154px;
+    object-fit: cover;
+    width: 194px;
+  }
+  
+  .flex-col-1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+    margin-left: 194px;
+    min-height: 88px;
+    width: 852px;
+  }
+  
+  .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 65px;
+    min-width: 852px;
+  }
+  
+  .contact-us {
+    align-self: flex-end;
+    letter-spacing: 0;
+    margin-left: 213px;
+    min-height: 28px;
+    width: 114px;
+  }
+  
+  .overlap-group5 {
+    height: 52px;
+    margin-left: 3px;
+    position: relative;
+    width: 504px;
+  }
+  
+  .vector-9 {
+    height: 16px;
+    left: 50px;
+    position: absolute;
+    top: 29px;
+    width: 18px;
+  }
+  
+  .address {
+    color: var(--white);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 504px;
+  }
+  
+  .vector-8 {
+    height: 16px;
+    margin-top: 4px;
+    width: 18px;
+  }
+  
+  .about-us {
+    letter-spacing: 0;
+    margin-right: 6px;
+    min-height: 23px;
+    width: 96px;
+  }
+  
+  .notes-the-3-ds-versi {
+    color: var(--black);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 11px;
+    margin-top: 102px;
+    min-height: 1082px;
+    width: 1189px;
+  }
+  
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 608px;
+    margin-left: 30px;
+    margin-top: 93px;
+    min-width: 1208px;
+  }
+  
+  .rectangle-7 {
+    background-color: var(--mist-gray);
+    height: 584px;
+    width: 453px;
+  }
+  
+  .article1 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    min-height: 574px;
+    width: 724px;
+  }
+  
+  .overlap-group3 {
+    height: 304px;
+    margin-left: 41px;
+    position: relative;
+    width: 565px;
+  }
+  
+  .x2 {
+    height: 267px;
+    left: 173px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 392px;
+  }
+  
+  .game {
+    height: 147px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 157px;
+    width: 186px;
+  }
+  
+  .monster-hunter-3-ult {
+    letter-spacing: 0;
+    margin-right: 2px;
+    margin-top: 21px;
+    min-height: 248px;
+    width: 722px;
+  }
+  
+  .span1 {
+    color: var(--black);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+  }
+  
+  .overlap-group8 {
+    align-items: flex-end;
+    background-color: 
+  #03749996;
+    display: flex;
+    height: 88px;
+    justify-content: flex-end;
+    min-width: 1440px;
+    padding: 12.7px 64px;
+  }
+  
+  .weapon-armor-set {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    min-width: 506px;
+  }
+  
+  .download__3_-removebg-preview-1-1 {
+    height: 52px;
+    margin-top: -0.19px;
+    object-fit: cover;
+    width: 50px;
+  }
+  
+  .overlap-group7 {
+    align-self: flex-end;
+    height: 50px;
+    margin-bottom: -0.09px;
+    position: relative;
+    width: 454px;
+  }
+  
+  .weapon-armor-sets {
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 454px;
+  }
+  
+  .images__1_-removebg-preview {
+    height: 50px;
+    left: 173px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 56px;
+  }
+  
+  .monster-list {
+    align-items: flex-start;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    margin-left: 23px;
+    margin-top: 6px;
+    min-width: 317px;
+  }
+  
+  .overlap-group6 {
+    height: 50px;
+    position: relative;
+    width: 49px;
+  }
+  
+  .rectangle-5 {
+    background-color: var(--mist-gray);
+    height: 46px;
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 43px;
+  }
+  
+  .download__5_-removebg-preview-1 {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 49px;
+  }
+  
+  .monster-list-1 {
+    letter-spacing: 0;
+    margin-left: 6px;
+    min-height: 45px;
+    width: 260px;
+  }
+  
+  .skills {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 52px;
+    margin-bottom: 0.32px;
+    margin-left: 28px;
+    min-width: 179px;
+  }
+  
+  .images__3_-removebg-preview {
+    align-self: flex-end;
+    height: 50px;
+    object-fit: cover;
+    width: 42px;
+  }
+  
+  .skills-1 {
+    letter-spacing: 0;
+    margin-left: 6px;
+    min-height: 42px;
+    width: 131px;
+  }
+  
+  .location {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 0.32px;
+    margin-left: 3px;
+    min-width: 228px;
+  }
+  
+  .download__4_-removebg-preview {
+    height: 50px;
+    object-fit: cover;
+    width: 38px;
+  }
+  
+  .location-1 {
+    letter-spacing: 0;
+    margin-left: 5px;
+    min-height: 44px;
+    width: 183px;
+  }
+  
+  .overlap-group9 {
+    align-items: flex-start;
+    background-color: var(--allports);
+    display: flex;
+    height: 203px;
+    justify-content: flex-end;
+    min-width: 1440px;
+    padding: 17px 76px;
+  }
+  
+  .flex-col {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12.24px;
+    margin-left: 227px;
+    min-height: 112px;
+    width: 190px;
+  }
+  
+  .social-media {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 190px;
+  }
+  
+  .vector-7 {
+    align-self: center;
+    height: 43px;
+    margin-bottom: 0;
+    margin-left: 22px;
+    width: 50px;
+  }
+  
+  .vector-5 {
+    height: 48px;
+    margin-top: -0.1px;
+    width: 48px;
+  }
+  
+  .vector-6 {
+    height: 48px;
+    margin-left: 22px;
+    margin-top: -0.1px;
+    width: 49px;
+  }
+  
+  .overlap-group11 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6227338ee0acc8b4e003619c/releases/622733a1199bbc4b1ae94244/img/rectangle-6@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 51px;
+    margin-right: 1.16px;
+    margin-top: 13px;
+    min-width: 177px;
+    padding: 11.2px 29.1px;
+  }
+  
+  .subscribe {
+    letter-spacing: 0;
+    min-height: 22px;
+    width: 118px;
+  }
+  
+  .overlap-group2 {
+    align-items: flex-start;
+    align-self: center;
+    background-color: var(--white);
+    border-radius: 29px;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    margin-left: 112px;
+    margin-top: 15px;
+    min-width: 562px;
+    padding: 2.7px 30.4px;
+  }
+  
+  .search-here {
+    align-self: center;
+    color: var(--mist-gray);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    min-height: 23px;
+    width: 151px;
+  }
+  
+  .overlap-group1 {
+    height: 53px;
+    margin-left: 307px;
+    position: relative;
+    width: 41px;
+  }
+  
+  .vector-container {
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 41px;
+  }
+  
+  .vector-1 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .vector {
+    height: 20px;
+    left: 25px;
+    position: absolute;
+    top: 32px;
+    width: 16px;
+  }
+  
+  .vector-3 {
+    height: 35px;
+    left: 3px;
+    position: absolute;
+    top: 4px;
+    width: 26px;
+  }
+  
+  .vector-4 {
+    height: 7px;
+    left: 8px;
+    position: absolute;
+    top: 9px;
+    width: 16px;
+  }
+  
+  .vector-2 {
+    height: 16px;
+    left: 28px;
+    position: absolute;
+    top: 37px;
+    width: 12px;
+  }
+  
+  .download__3_-removebg-preview-1 {
+    height: 154px;
+    object-fit: cover;
+    width: 194px;
+  }
+
+  /* variables */
+  :root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --allports-2: 
+  rgba(3, 116, 153, 0.588);
+    --allports: 
+  rgba(3, 116, 153, 1);
+    --deep-sea-green: 
+  rgba(6, 84, 101, 1);
+    --blue-jeans: 
+  rgba(100, 181, 246, 1);
+    --mist-gray: 
+  rgba(196, 196, 196, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-s: 18px;
+    --font-size-m: 20px;
+    --font-size-l: 22px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 36px;
+  
+    --font-family-nunito: "Nunito";
+    --font-family-raleway: "Raleway";
+  }
+  
+  
+  
+  .border-1px-black {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--black);
+  }
+  .nunito-normal-white-22px {
+    color: var(--white);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-semi-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .raleway-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nunito-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-normal-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-normal-mist-gray-24px {
+    color: var(--mist-gray);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nunito-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nunito-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .raleway-normal-allports-24px {
+    color: var(--allports);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+  }

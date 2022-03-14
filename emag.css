@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+header {
+    background-image: linear-gradient( rgb(40, 69, 161),rgb(0, 0, 92)) 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.searchbox {
+    background-color: none;
+    width: 60%;
+    height: 40%;
+    border-radius: 35px;
+
+    text-align: center ;
+}
+.magnify {
+    justify-self: center;
+    position: relative;
+    top:6px;
+    background-color: none;    
+}
+footer {
+    display: grid;
+    background-color: rgb(78, 78, 78);
+    grid-template-areas: 
+    "logo credits contact";
+    grid-template-columns: 25% 1fr 25%;
+    gap: 5px; 
+    width: 100%;
+}
+.credits{
+    grid-area: credits;
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+.footlogo {
+    grid-row: logo;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.contact{
+    grid-area: contact;
+    align-self: center;
+    justify-self: center;
+}
+@media screen and (max-width:1070px) {
+    #dropcon {
+        flex-wrap: wrap;
+    }
+    
+}
