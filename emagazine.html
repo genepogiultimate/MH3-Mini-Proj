@@ -15,35 +15,36 @@
 <body>
     <header class="container-fluid">
             <div class="row text-center">
-                <a href="#" class="p-1 col-sm-3"><img src="photos/mhlogo.png" alt="logo" width="45px">Home</a>
+                <a href="#home" class="p-1 col-sm-3" target="_blank"><img src="photos/mhlogo.png" alt="logo" id="home" width="45px">Home</a>
                 
                 <div class="col-sm-6 p-1 my-auto">
-                    <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="../../photo/magnifying-glass.png" width="20px" height="20px" name="search1">
+                    <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="/projects/miniproj/photos/magnifying-glass.png" width="20px" height="20px" name="search1">
                 </div>
                 <div class="col-sm-3 d-flex p-1 justify-content-around align-items-center">
                     <a href="https://facebook.com" target="blank">
-                    <img class="icon" src="./photos/facebook.png">
+                        <img class="icon" src="./photos/facebook.png">
                     </a>
                     <a href="https://twitter.com" target="_blank">
-                    <img class="icon" src="./photos/twitter-sign.png">
+                        <img class="icon" src="./photos/twitter-sign.png">
                     </a>
                     <a href="https://instagram.com" target="_blank">
-                    <img class="icon" src="./photos/instagram.png">
+                        <img class="icon" src="./photos/instagram.png">
+                    </a>
+                    <a href="https://discord.com/" target="_blank">
+                        <img class="icon" src="./photos/discord.png">
                     </a>
                 </div>
             </div>
         <div class="nav">
-            <a href="#" class="nav-item nav-link"><i class="bi bi-house"></i>Home</a>
-            <a href="#" class="nav-item nav-link"><i class="bi bi-people-fill"></i>About Us</a>
-            <a href="#" class="nav-item nav-link"><i class="bi bi-envelope"></i>Contact Us</a>
-        <!--collapse-->
-            
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link"><i class="bi bi-reddit"></i>Discussions</a>
+            <a href="#" class="nav-item nav-link"><i class="bi bi-envelope"></i>Suggestions</a>  
             <!--new toggle dropdown-->
             <div class="btn-group dropend">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   Hunter Data
                 </button>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu" id="dropmenu">
                     <div class="d-flex" id="dropcon">
                         <a href="#" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
                         <a href="#" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
@@ -56,6 +57,29 @@
             </div>
         </div>
     </header>
+        <div class="carousel slide" id="gallery" data-bs-ride="carousel">
+            <div class="carousel-inner" style=" max-height:80vh !important;">  
+                <div class="carousel-item active" data-bs-interval="3000"><img  src="photos/3ds.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/brachy.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/bubbleunderwater.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/ceadus.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/gobul.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/lagiacrus.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/mhboxgame.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/miralis.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/plesiaoth.jpg" style="height:400px;"></div>
+                <div class="carousel-item" data-bs-interval="3000"><img  src="photos/switchaxeWEAPON.png" style="height:400px;"></div>
+                                          
+            </div>    
+            <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>            
+        </div>
     <article class="container-fluid">
         <iframe width="100%" src="https://www.youtube.com/embed/F3ev7-UCnjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls muted class="video"></iframe>
         <form>
@@ -70,12 +94,12 @@
         Monster Hunter 3 Ultimate (モンスターハンター3アルティメート) is an expansion of the Wii title Monster Hunter 3 (Tri), released
         on the Nintendo 3DS alongside a Wii U version that supports 480p, 720p, 1080i and 1080p resolution graphical
         output. The game was confirmed to arrive by Capcom's Dubindoh from Capcom-Unity. Monster Hunter 3 Ultimate was
-        released in North America and Europe during March 2013.
+        released in North America and Europe during March 2013. <br>
 
         On February 21st, 2013, a demo of the game was released in North America for both the 3DS and Wii U systems. It
         contains three quests: Hunt a Lagombi in the Tundra (Easy), hunt a Plesioth in the Deserted Island (Average),
         and hunt a Brachydios in the Volcano (Hard). All weapon types are available in the demo. The quests are the same
-        in both versions.[1] Unlike the full game, the 3DS demo is not compatible with the Circle Pad Pro.
+        in both versions.[1] Unlike the full game, the 3DS demo is not compatible with the Circle Pad Pro. <br>
 
 
         Notes:

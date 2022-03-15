@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+#dropmenu {
+    background-color: rgb(255, 251, 195);
+}
 .icon {
     width: 20px;
     height: 20px;
@@ -56,6 +59,5 @@ footer {
 @media screen and (max-width:1070px) {
     #dropcon {
         flex-wrap: wrap;
-    }
-    
+    }  
 }
