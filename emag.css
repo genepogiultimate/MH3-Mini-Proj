@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #dropmenu {
     background-color: rgb(255, 251, 195);
 }
@@ -56,8 +57,43 @@ footer {
     align-self: center;
     justify-self: center;
 }
+/*----------- WEAPON AND ARMOR PAGE ------------------ */
+#weapons {
+    display: grid;
+    grid-template-areas: 
+    "sns db ls"
+    "gs ham hh"
+    "lanc gl sa"
+    "lb hb bow";
+    grid-template-columns: 1fr, 33.33% , 1fr;
+    gap: 10px;
+    margin: auto;
+    text-align: center;
+    
+}
+#weapons div img {
+    height: 200px;
+    width: 200px;
+}
+
+.sns {
+    grid-area: sns;
+}
+.db {
+    grid-area: db;
+}
 @media screen and (max-width:1070px) {
     #dropcon {
         flex-wrap: wrap;
     }  
+}
+
+@media screen and (max-width:670px) {
+    #dropcon {
+        flex-wrap: wrap;
+    } 
+    #weapons {
+        display: block;
+
+    }
 }
