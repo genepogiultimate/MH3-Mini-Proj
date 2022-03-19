@@ -36,10 +36,42 @@
                 </div>
             </div>
         <div class="nav">
-            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link"><i class="bi bi-calendar-event"></i>Event Quests</a>
-            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link"><i class="bi bi-reddit"></i>Discussions</a>
-            <a href="#" class="nav-item nav-link"><i class="bi bi-envelope"></i>Suggestions</a>  
-            <!--new toggle dropdown-->
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link" target="_blank"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link" target="_blank"><i class="bi bi-reddit"></i>Discussions</a>
+            <!--trial modal-->
+            <a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#message"><i class="bi bi-envelope"></i>Suggestions</a>  
+
+            <!-- modal container-->
+            <div class="modal" id="message">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Message Us</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <fieldset>                   
+                                    Email<br><input type="text" name="email" placeholder="Optional"><br>
+                                    Mobile/Telephone Number<br><input type="number" name="phone" placeholder="Optional"> 
+                                    <br>
+                                    <br>
+                                    <textarea placeholder="Enter your message here"></textarea>                               
+                                </fieldset>        
+                            </form>  
+                        </div>
+                
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <!--new toggle dropdown horizontal responsive-->
             <div class="btn-group dropend">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   Hunter Data
@@ -47,10 +79,10 @@
                 <div class="dropdown-menu" id="dropmenu">
                     <div class="d-flex" id="dropcon">
                         <a href="weaponandarmor.html" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
-                        <a href="#" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
-                        <a href="#" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
-                        <a href="#" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
-                        <a href="#" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
+                        <a href="weaponandarmor.html#armor" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
+                        <a href="skills.html" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
+                        <a href="area.html" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
+                        <a href="monsterlist.html" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
                             Monster Lists</a>  
                     </div>
                 </div>
@@ -81,18 +113,10 @@
             </button>            
         </div>
     <article class="container-fluid">
-        <iframe width="100%" src="https://www.youtube.com/embed/F3ev7-UCnjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls muted class="video"></iframe>
-        <form>
-            <fieldset>
-                <legend>Subscribe for news and updates</legend>
-                    <label for="email">Email</label><input type="text" name="email">
-                    <label for="phone">Mobile/Telephone Number</label><input type="number" name="phone"> 
-                
-            </fieldset>        
-        </form>    
+        <iframe width="100%" src="https://www.youtube.com/embed/F3ev7-UCnjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls muted class="video"></iframe>  
         <p>
             New:
-        underwater battle ; switch axe ; shakalaka warrior *cha-cha & *kayamba ; new element slime!
+        <h1>**underwater battle ; switch axe ; shakalaka warrior *cha-cha & *kayamba ; new element slime!**</h1>
         
         Monster Hunter 3 Ultimate (モンスターハンター3アルティメート) is an expansion of the Wii title Monster Hunter 3 (Tri), released
         on the Nintendo 3DS alongside a Wii U version that supports 480p, 720p, 1080i and 1080p resolution graphical

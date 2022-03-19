@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter 3 Ultimate</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="emag.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+</head>
+
+<body>
+    <header class="container-fluid">
+            <div class="row text-center">
+                <a href="emagazine.html" class="p-1 col-sm-3"><img src="photos/mhlogo.png" alt="logo" id="home" width="45px">Home</a>
+                
+                <div class="col-sm-6 p-1 my-auto">
+                    <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="photos/magnifying-glass.png" width="20px" height="20px" name="search1">
+                </div>
+                <div class="col-sm-3 d-flex p-1 justify-content-around align-items-center">
+                    <a href="https://facebook.com" target="_blank">
+                        <img class="icon" src="./photos/facebook.png">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img class="icon" src="./photos/twitter-sign.png">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img class="icon" src="./photos/instagram.png">
+                    </a>
+                    <a href="https://discord.com/" target="_blank">
+                        <img class="icon" src="./photos/discord.png">
+                    </a>
+                </div>
+            </div>
+        <div class="nav">
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link" target="_blank"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link" target="_blank"><i class="bi bi-reddit"></i>Discussions</a>
+            <!--trial modal-->
+            <a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#message"><i class="bi bi-envelope"></i>Suggestions</a>  
+
+            <!-- modal container-->
+            <div class="modal" id="message">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Message Us</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <fieldset>                   
+                                    Email<br><input type="text" name="email" placeholder="Optional"><br>
+                                    Mobile/Telephone Number<br><input type="number" name="phone" placeholder="Optional"> 
+                                    <br>
+                                    <br>
+                                    <textarea placeholder="Enter your message here"></textarea>                               
+                                </fieldset>        
+                            </form>  
+                        </div>
+                
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>  
+            <!--new toggle dropdown-->
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hunter Data
+                </button>
+                <div class="dropdown-menu" id="dropmenu">
+                    <div class="d-flex" id="dropcon">
+                        <a href="weaponandarmor.html" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
+                        <a href="weaponandarmor.html#armor" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
+                        <a href="skills.html" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
+                        <a href="area.html" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
+                        <a href="monsterlist.html" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
+                            Monster Lists</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid justify-content-center g-5" >
+       
+            <div class="row center p-3 m-3 bg-primary">
+                <h3 class="col-12">Hunting grounds:</h3>
+            </div>
+                <hr>
+            <div class="row justify-content-sm-center pb-3 mb-3 g-5">
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#desert">Deserted Island<br><img src="./photos/Deserted_Island_Background.jpeg"></a> </div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#flooded">Flooded Forest<br>
+                <img src="./photos/Flooded_Forest_Background.jpg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#sandy">Sandy Plains<br>
+                    <img src="./photos/Sandy_Plains_Background.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#tundra">Tundra<br>
+                    <img src="./photos/tundra.jpeg"></a></div>
+            </div>
+            <div class="row justify-content-sm-center pb-3 mb-3 g-5">
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#volcano">Volcano<br>
+                    <img src="./photos//volcano.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#misty">Misty Peaks<br>
+                    <img src="./photos/mistypeaks.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#underwater">Underwater Ruin<br>
+                    <img src="./photos/underwaterruin.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#greatdes">Great Desert<br>
+                    <img src="./photos/Deserted_Island_Background.jpeg"></a></div>
+            </div>
+            <div class="row justify-content-sm-center pb-3 mb-3 g-5">
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#sacred">Sacred Land<br>
+                    <img src="./photos/sacredland.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#tainted">Tainted Sea<br>
+                    <img src="./photos/taintedsea.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#tower">Tower<br>
+                    <img src="./photos/towerbg.jpeg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#landarena">Land Arena<br>
+                    <img src="./photos/landarenabg.jpeg"></a></div>
+            </div>
+            <div class="row justify-content-center g-5 pb-3 mb-3">
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#waterarena">Water Arena<br>
+                    <img src="./photos/waterarenabg.jpeg"></a></div>
+            </div>
+            <br><br>  
+            <div class="row center p-3 m-3 bg-primary">
+                <h3 class="">Settlements:</h3>
+            </div>
+            <hr>
+            <div class="row justify-content-sm-center g-5 pb-3 mb-3">
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#moga">Moga Village<br>
+                    <img src="photos/smmoga2.jpg"></a></div>
+                <div class="col-sm-auto"><a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#tanzia">Tanzia<br>
+                    <img src="./photos/smtanzia.jpeg"></a></div>
+            </div>
+        </div>
+    </div>
+    <!--modals preview-->
+    <!-- modal container-->
+    <div class="modal" id="desert">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Deserted Island</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Island-ResourceMap.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="flooded">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Flooded Forest</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Forest-ResourceMap.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="sandy">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Sandy Plains</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Desert-ResourceMap.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="tundra">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Tundra</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/MHP3-Tundra_Resource_Map.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="volcano">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Volcano</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Volcano-ResourceMap.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="misty">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Misty Peaks</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Mistypeakslootmap.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="underwater">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Underwater Ruin</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/UnderwaterRuins-Detailed.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="greatdes">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Great Desert</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Great_Desert_Map.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="sacred">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Sacred Land</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/sacredland-Map.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="tainted">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Tainted Sea</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Tainted_Sea_Screenshot_002.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="tower">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Tower</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/Tower_3_Map.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="landarena">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Land Arena</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/LandArenaCrop.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="waterarena">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Water Arena</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/WaterArenaCrop.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="moga">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Moga Village</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/MogaVillage.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="tanzia">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Tanzia</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- modal body -->
+                <div class="modal-body">
+                    <img src="photos/tanzia.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="footlogo">
+            <img src="./photos/mhlogo.png" width="50px" height="50px">
+        </div>
+        <div class="contact">
+            <a href="#">About Us</a>
+            <hr>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="credits">
+            &copy; 2022 Capcom. Games are property of their respective owners.<br>
+
+            &copy;CAPCOM CO., LTD. ALL RIGHTS RESERVED.  
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
+</body>
+</html>

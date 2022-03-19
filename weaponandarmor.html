@@ -22,7 +22,7 @@
                     <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="photos/magnifying-glass.png" width="20px" height="20px" name="search1">
                 </div>
                 <div class="col-sm-3 d-flex p-1 justify-content-around align-items-center">
-                    <a href="https://facebook.com" target="blank">
+                    <a href="https://facebook.com" target="_blank">
                         <img class="icon" src="./photos/facebook.png">
                     </a>
                     <a href="https://twitter.com" target="_blank">
@@ -37,9 +37,41 @@
                 </div>
             </div>
         <div class="nav">
-            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link"><i class="bi bi-calendar-event"></i>Event Quests</a>
-            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link"><i class="bi bi-reddit"></i>Discussions</a>
-            <a href="#" class="nav-item nav-link"><i class="bi bi-envelope"></i>Suggestions</a>  
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link" target="_blank"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link" target="_blank"><i class="bi bi-reddit"></i>Discussions</a>
+            <!--trial modal-->
+            <a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#message"><i class="bi bi-envelope"></i>Suggestions</a>  
+
+            <!-- modal container-->
+            <div class="modal" id="message">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Message Us</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <fieldset>                   
+                                    Email<br><input type="text" name="email" placeholder="Optional"><br>
+                                    Mobile/Telephone Number<br><input type="number" name="phone" placeholder="Optional"> 
+                                    <br>
+                                    <br>
+                                    <textarea placeholder="Enter your message here"></textarea>                               
+                                </fieldset>        
+                            </form>  
+                        </div>
+                
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>  
             <!--new toggle dropdown-->
             <div class="btn-group dropend">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,11 +79,11 @@
                 </button>
                 <div class="dropdown-menu" id="dropmenu">
                     <div class="d-flex" id="dropcon">
-                        <a href="#" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
-                        <a href="#" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
-                        <a href="#" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
-                        <a href="#" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
-                        <a href="#" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
+                        <a href="weaponandarmor.html" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
+                        <a href="weaponandarmor.html#armor" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
+                        <a href="skills.html" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
+                        <a href="area.html" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
+                        <a href="monsterlist.html" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
                             Monster Lists</a>  
                     </div>
                 </div>
@@ -62,7 +94,7 @@
     <h1>**Weapons**</h1>
     
             <hr>
-        <div id="weapons">
+        <div id="weapons" class="m-2">
             <div class="sns">
                 <img src="photos/sns-removebg-preview.png" alt="SNS">
                 <h4>Sword and Shield</h4>
@@ -125,20 +157,21 @@
             </div>
         </div>
         <hr>
-        <h1>**ARMOR**</h1>
-        <hr>
-        <img src="photos/bladegunarmor-removebg-preview.png" style="width :80% ; margin: 10px ; padding:10px" alt="armor">
-        <br>
-        There are 2 types of armor in mh. 
-        <br><hr>
-        <h4>"Blademaster"</h4> 
-        <p>As it suggests it can only equipped by weilding melee type of weapons. It has a higher raw defense compared to a "gunner". And MOST "blademaster" armor are active with skills related to blademaster weapons. </p>
-        <hr> 
-        <h4>"Gunner"</h4>
-        <p>*Can only be equipped when using either Bow, Light Bowgun or Heavy Bowgun* As this type of armor may be lacking in raw defense compensates in elemental defense. You will probably notice this as you level your rank through-out the game.</p>
-        
+        <div class="container-fluid" id="armor">
+            <h1>**ARMOR**</h1>
+            <hr>
+            <img src="photos/bladegunarmor-removebg-preview.png" style="width: 300px ; margin: 10px ; padding:10px" alt="armor">
+            <br>
+            There are 2 types of armor in mh. 
+            <br><hr>
+            <h4>"Blademaster"</h4> 
+            <p>As it suggests it can only equipped by weilding melee type of weapons. It has a higher raw defense compared to a "gunner". And MOST "blademaster" armor are active with skills related to blademaster weapons. </p>
+            <hr> 
+            <h4>"Gunner"</h4>
+            <p>*Can only be equipped when using either Bow, Light Bowgun or Heavy Bowgun* As this type of armor may be lacking in raw defense compensates in elemental defense. You will probably notice this as you level your rank through-out the game.</p>
+        </div>
     </center>    
-    <footer class="container-fluid d-ab">
+    <footer class="container-fluid">
         <div class="footlogo">
             <img src="./photos/mhlogo.png" width="50px" height="50px">
         </div>

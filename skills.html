@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter 3 Ultimate</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="emag.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+            <div class="row text-center">
+                <a href="emagazine.html" class="p-1 col-sm-3"><img src="photos/mhlogo.png" alt="logo" id="home" width="45px">Home</a>
+                
+                <div class="col-sm-6 p-1 my-auto">
+                    <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="photos/magnifying-glass.png" width="20px" height="20px" name="search1">
+                </div>
+                <div class="col-sm-3 d-flex p-1 justify-content-around align-items-center">
+                    <a href="https://facebook.com" target="blank">
+                        <img class="icon" src="./photos/facebook.png">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img class="icon" src="./photos/twitter-sign.png">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img class="icon" src="./photos/instagram.png">
+                    </a>
+                    <a href="https://discord.com/" target="_blank">
+                        <img class="icon" src="./photos/discord.png">
+                    </a>
+                </div>
+            </div>
+        <div class="nav">
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link" target="_blank"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link" target="_blank"><i class="bi bi-reddit"></i>Discussions</a>
+            <!--trial modal-->
+            <a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#message"><i class="bi bi-envelope"></i>Suggestions</a>  
+
+            <!-- The Modal -->
+            <div class="modal" id="message">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Message Us</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <fieldset>                   
+                                    Email<br><input type="text" name="email" placeholder="Optional"><br>
+                                    Mobile/Telephone Number<br><input type="number" name="phone" placeholder="Optional"> 
+                                    <br>
+                                    <br>
+                                    <textarea placeholder="Enter your message here"></textarea>                               
+                                </fieldset>        
+                            </form>  
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <!--new toggle dropdown horizontal responsive-->
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hunter Data
+                </button>
+                <div class="dropdown-menu" id="dropmenu">
+                    <div class="d-flex" id="dropcon">
+                        <a href="weaponandarmor.html" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
+                        <a href="weaponandarmor.html#armor" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
+                        <a href="skills.html" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
+                        <a href="area.html" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
+                        <a href="monsterlist.html" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
+                            Monster Lists</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <!--end of nav-->
+        <div class="container-fluid">
+
+            <center>
+                <h1>Skills</h1>
+                <img src="photos/skillsample.png" alt="photo" width="80%" height="200px">
+            </center>
+        
+            <hr>
+            <p style="margin: 1rem;">
+                Skills are part of your arsenal through-out the game. Skills can empower the weapon you wield,<br> or simply make healing faster.And those skills have a certain threshold or conditions for it<br> to activate. Beware as you can also activate negative skills when reaching a negative<br> threshold( - ). There are a lot of skills that can help you in your quests and there are 3 ways you can possess them:<br>
+                <!--put modal in each li image for reference-->
+                <ul>
+                    <li><a type="button" data-bs-toggle="modal" data-bs-target="#exarmor">Armor</a></li>
+                    <li><a type="button" data-bs-toggle="modal" data-bs-target="#exfood">Canteen/Felyne Food buff</a></li>
+                    <li><a type="button" data-bs-toggle="modal" data-bs-target="#extalisman">Talisman</a></li>
+                    <li><a type="button" data-bs-toggle="modal" data-bs-target="#exjewel">Jewel</a></li>
+                </ul>
+                <!-- modal sample armor-->
+
+                <div class="modal fade" id="exarmor" tabindex="-1" aria-labelledby="exampleModalarmor" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalarmor">Sample Armor with slot</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="./photos/samplearmor.png" alt="">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <!-- modal sample food-->
+                <div class="modal fade" id="exfood" tabindex="-1" aria-labelledby="exampleModalfood" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalfood">Sample Canteen Food</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="./photos/canteenfood.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal sample talisman-->
+                <div class="modal fade" id="extalisman" tabindex="-1" aria-labelledby="exampleModaltalisman" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModaltalisman">Sample Talisman</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="./photos/talismansample.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal sample jewel-->
+                <div class="modal fade" id="exjewel" tabindex="-1" aria-labelledby="exampleModaljewel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModaljewel">Sample Jewel/Deco</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="./photos/jewelcraft.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <b>1st</b>: Most armor parts have embedded skill attributes and the number of skill attributes and skill points vary.
+                Armor have these slots that you can insert jewels in them.
+                There might be some that have the skill attack+2 and health+2.
+                As there is a variety of armors craftable its gonna be a mix and match for every hunter out there. 
+                <br>
+                <br>
+                <b>2nd</b>:As you make your way through the ranks. The chef might make quest's to gather some ingredients to be available when making dishes for you. Skills obtained this way is active for 1 quest. And depending on the ingredients and freshness of it will be the base for the skill you can aquire.
+                <br>
+                <br>
+                <b>3rd</b>:Talisman will be unlocked after a certain quest. Talisman is like an armor without defense stats, but it does have slots for jewel and an embedded skill to it(random). Talisman can be mined at higher ranks or can be a part of your reward. Every talisman have random skill attributes(max of 2) with random skill points and random jewel slots(max 3).
+                <br>
+                <br>
+                <b>4th</b>:Jewel can be a part of your quest reward or crafted. Jewels are inserted to jewel slots (weapon , armor , talisman). the main use of these jewel are to add skill points to activate skills or empowered activated skills. Or they can be simply used to negate an active negative skill. 
+            </p>
+        </div>
+    <footer class="container-fluid">
+        <div class="footlogo">
+            <img src="./photos/mhlogo.png" width="50px" height="50px">
+        </div>
+        <div class="contact">
+            <a href="#">About Us</a>
+            <hr>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="credits">
+            &copy; 2022 Capcom. Games are property of their respective owners.<br>
+
+            &copy;CAPCOM CO., LTD. ALL RIGHTS RESERVED.  
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

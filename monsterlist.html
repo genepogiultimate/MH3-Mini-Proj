@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter 3 Ultimate</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="emag.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+</head>
+
+<body>
+    <header class="container-fluid">
+            <div class="row text-center">
+                <a href="emagazine.html" class="p-1 col-sm-3"><img src="photos/mhlogo.png" alt="logo" id="home" width="45px">Home</a>
+                
+                <div class="col-sm-6 p-1 my-auto">
+                    <input type="search" class="searchbox" name="search1" placeholder="Search Data"><input type="image" class="magnify" src="photos/magnifying-glass.png" width="20px" height="20px" name="search1">
+                </div>
+                <div class="col-sm-3 d-flex p-1 justify-content-around align-items-center">
+                    <a href="https://facebook.com" target="_blank">
+                        <img class="icon" src="./photos/facebook.png">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img class="icon" src="./photos/twitter-sign.png">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img class="icon" src="./photos/instagram.png">
+                    </a>
+                    <a href="https://discord.com/" target="_blank">
+                        <img class="icon" src="./photos/discord.png">
+                    </a>
+                </div>
+            </div>
+        <div class="nav">
+            <a href="https://monsterhunter.fandom.com/wiki/MH3U:_Download_Quests" class="nav-item nav-link" target="_blank"><i class="bi bi-calendar-event"></i>Event Quests</a>
+            <a href="https://www.reddit.com/t/monster_hunter_3_ultimate/" class="nav-item nav-link" target="_blank"><i class="bi bi-reddit"></i>Discussions</a>
+            <!--trial modal-->
+            <a class="btn nav-item" type="button" data-bs-toggle="modal" data-bs-target="#message"><i class="bi bi-envelope"></i>Suggestions</a>  
+
+            <!-- modal container-->
+            <div class="modal" id="message">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Message Us</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <fieldset>                   
+                                    Email<br><input type="text" name="email" placeholder="Optional"><br>
+                                    Mobile/Telephone Number<br><input type="number" name="phone" placeholder="Optional"> 
+                                    <br>
+                                    <br>
+                                    <textarea placeholder="Enter your message here"></textarea>                               
+                                </fieldset>        
+                            </form>  
+                        </div>
+                
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>  
+            <!--new toggle dropdown-->
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hunter Data
+                </button>
+                <div class="dropdown-menu" id="dropmenu">
+                    <div class="d-flex" id="dropcon">
+                        <a href="weaponandarmor.html" class="dropdown-item "><img src="./photos/weapon-removebg-preview.png" class="icon" alt="icon"> Weapon</a>
+                        <a href="weaponandarmor.html#armor" class="dropdown-item"><img src="./photos/armor-removebg-preview.png" class="icon" alt="icon"> Armor</a>
+                        <a href="skills.html" class="dropdown-item "><img src="./photos/skills-removebg-preview.png" class="icon" alt="icon"> Skills </a>
+                        <a href="area.html" class="dropdown-item "><img src="./photos/maps-removebg-preview.png" class="icon" alt="icon">Areas</a>
+                        <a href="monsterlist.html" class="dropdown-item "><img src="./photos/monsters-removebg-preview.png" alt="icon" class="icon">
+                            Monster Lists</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <h1 class="bg-warning p-3 d-flex justify-content-center">Monster Class:</h1>
+     <div class="container-fluid g-3 p-2 m-3">
+        <h3>Lynians:</h3>
+        <div class="mlist">
+            <div>Felyne<br><img src="photos/felyne.jpg"></div>
+            <div>Melynx<br><img src="photos/melynx.jpg" alt=""></div>           
+        </div>
+        <h3>Neopterons:</h3>
+        <div class="mlist">
+            <div>Altaroth<br><img src="photos/altaroth.jpg"></div>
+            <div>Bnahabra<br><img src="photos/bnahabra.jpg"></div>
+        </div>
+        <h3>Herbivores:</h3>
+        <div class="mlist">
+            <div>Aptonoth<br><img src="photos/aptonoth.jpg"></div>
+            <div>Anteka<br><img src="photos/anteka.jpg"></div>
+            <div>Epioth<br><img src="photos/epioth.jpg"></div>
+            <div>Kelbi<br><img src="photos/kelbi.jpg"></div>
+            <div>Popo<br><img src="photos/popo.jpg"></div>
+            <div>Rhenoplos<br><img src="photos/rhenoplos.jpg"></div>
+        </div>
+        <h3>Bird Wyverns:</h3>
+        <div class="mlist">
+            <div>Baggi<br><img src="photos/baggi.jpg"></div>
+            <div>Great Baggi<br><img src="photos/gbaggi.jpg"></div>
+            <div>Gargwa<br><img src="photos/gargwa.jpg"></div>
+            <div>Jaggi<br><img src="photos/jaggi.jpg"></div>
+            <div>Jaggia<br><img src="photos/jaggia.jpg"></div>
+            <div>Great Jaggia<br><img src="photos/gjaggi.jpg"></div>
+            <div>Wroggi<br><img src="photos/wroggi.jpg"></div>
+            <div>Great Wroggi<br><img src="photos/gwroggi.jpeg"></div>
+            <div>Qurupeco<br><img src="photos/qurupeco.jpg"></div>
+            <div>Crimson Qurupeco<br><img src="photos/crimsonqurupeco.jpg"></div>
+        </div>
+        <h3>Flying Wyverns:</h3>
+        <div class="mlist">
+            <div>Barioth<br><img src="photos/barioth.jpg"></div>
+            <div>Sand Barioth<br><img src="photos/sbarioth.jpg"></div>
+            <div>Diablos<br><img src="photos/diablos.jpg"></div>
+            <div>Black Diablos<br><img src="photos/bdiablos.jpeg"></div>
+            <div>Giggi<br><img src="photos/giggi.jpg"></div>
+            <div>Gigginox<br><img src="photos/gigginox.jpg"></div>
+            <div>Baleful Gigginox<br><img src="photos/bgigginox.jpg"></div>
+            <div>Nargacuga<br><img src="photos/nargacuga.jpg"></div>
+            <div>Green Nargacuga<br><img src="photos/gnargacuga.jpg"></div>
+            <div>Lucent Nargacuga<br><img src="photos/lucentnargacuga.jpg"></div>
+            <div>Rathalos<br><img src="photos/rathalos.jpg"></div>
+            <div>Azure Rathalos<br><img src="photos/arathalos.jpg"></div>
+            <div>Silver Rathalos<br><img src="photos/srathalos.jpg"></div>
+            <div>Rathian<br><img src="photos/rathian.jpg"></div>
+            <div>Pink Rathian<br><img src="photos/prathian.jpg"></div>
+            <div>Golden Rathian<br><img src="photos/grathian.jpg"></div>
+        </div>
+        <h3>Piscine Wyverns:</h3>
+        <div class="mlist">
+            <div>Delex<br><img src="photos/delex.jpg"></div>
+            <div>Plesioth<br><img src="photos/plesioth.jpg"></div>
+            <div>Green Plesioth<br><img src="photos/gplesioth.jpg"></div>
+        </div>
+        <h3>Leviathans:</h3>
+        <div class="mlist">
+            <div>Uroktor<br><img src="photos/uroktor.jpg"></div>
+            <div>Agnaktor<br><img src="photos/agnaktor.jpg"></div>
+            <div>Glacial Agnakto<br><img src="photos/gagnaktor.jpg"></div>
+            <div>Gobul<br><img src="photos/gobul.jpg"></div>
+            <div>Lagiacrus<br><img src="photos/lagiacrus.jpg"></div>
+            <div>Ivory Lagiacrus<br><img src="photos/ilagiacrus.jpg"></div>
+            <div>Abyssal LaGiacrus<br><img src="photos/alagiacrus.jpg"></div>
+            <div>Ludroth<br><img src="photos/ludroth.jpg"></div>
+            <div>Royal Ludroth<br><img src="photos/rludroth.jpg"></div>
+            <div>Purple Lurdroth<br><img src="photos/pludroth.jpg"></div>
+            <div>Nibelsnarf<br><img src="photos/nibelsnarf.jpg"></div>
+        </div>
+        <h3>Brute Wyverns:</h3>
+        <div class="mlist">
+            <div>Barroth<br><img src="photos/barroth.jpg"></div>
+            <div>Jade Barroth<br><img src="photos/jbarroth.jpg"></div>
+            <div>Brachydios<br><img src="photos/brachy.jpg"></div>
+            <div>Deviljho<br><img src="photos/deviljho.jpg"></div>
+            <div>Savage Deviljho<br><img src="photos/sdeviljho.jpg"></div>
+            <div>Duramboros<br><img src="photos/duramboros.jpg"></div>
+            <div>Rust Duramboros<br><img src="photos/rduramboros.jpg"></div>
+            <div>Uragaan<br><img src="photos/uragaan.jpg"></div>
+            <div>Steel Uragaan<br><img src="photos/suragaan.jpg"></div>
+        </div>
+        <h3>Fanged Beasts:</h3>
+        <div class="mlist">
+            <div>Arzuros<br><img src="photos/arzuros.jpg"></div>
+            <div>Bullfango<br><img src="photos/bullfango.jpg"></div>
+            <div>Lagombi<br><img src="photos/lagombi.jpg"></div>
+            <div>Volvidon<br><img src="photos/volvidon.jpg"></div>
+        </div>
+        <h3>Fanged Wyverns:</h3>
+        <div class="mlist">
+            <div>Zinogre<br><img src="photos/zinogre.jpg"></div>
+            <div>Stygian Zinogre<br><img src="photos/szinogre.jpg"></div>
+        </div>
+        <h3>Elder Dragons:</h3>
+        <div class="mlist">
+            <div>Alatreon<br><img src="photos/alatreon.jpg"></div>
+            <div>Ceadeus<br><img src="photos/ceadus.jpg"></div>
+            <div>Gold Beard Ceadeus<br><img src="photos/gceadeus.jpg"></div>
+            <div>Dire Miralis<br><img src="photos/diremiralis.jpg"></div>
+            <div>Jhen Mohran<br><img src="photos/jhenmohran.jpg"></div>
+            <div>Hollowed Jhen Mohran<br><img src="photos/hjhenmohran.jpg"></div>
+        </div>
+     </div>
+    <footer class="container-fluid d-ab">
+        <div class="footlogo">
+            <img src="./photos/mhlogo.png" width="50px" height="50px">
+        </div>
+        <div class="contact">
+            <a href="#">About Us</a>
+            <hr>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="credits">
+            &copy; 2022 Capcom. Games are property of their respective owners.<br>
+
+            &copy;CAPCOM CO., LTD. ALL RIGHTS RESERVED.  
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
+</body>
+</html>

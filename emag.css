@@ -4,7 +4,7 @@
 }
 
 #dropmenu {
-    background-color: rgb(255, 251, 195);
+    background-color: rgb(56, 56, 52);
 }
 .icon {
     width: 20px;
@@ -16,6 +16,13 @@ header {
 a {
     text-decoration: none;
     color: black;
+}
+header .nav a {
+    color: white
+}
+p {
+    text-align: center;
+    margin: auto;
 }
 .searchbox {
     background-color: none;
@@ -39,6 +46,13 @@ footer {
     grid-template-columns: 25% 1fr 25%;
     gap: 5px; 
     width: 100%;
+    margin-top: 5px;
+}
+.mlist{
+    justify-content: space-evenly ;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem
 }
 .credits{
     grid-area: credits;
@@ -67,7 +81,7 @@ footer {
     "lb hb bow";
     grid-template-columns: 1fr, 33.33% , 1fr;
     gap: 10px;
-    margin: auto;
+    
     text-align: center;
     
 }
@@ -75,12 +89,19 @@ footer {
     height: 200px;
     width: 200px;
 }
+#weapons div {
+    border:1px solid yellow
+}
 
 .sns {
     grid-area: sns;
 }
 .db {
     grid-area: db;
+}
+.modal div div div img {
+    width: 100%;
+    height: 100%;
 }
 @media screen and (max-width:1070px) {
     #dropcon {
@@ -94,6 +115,6 @@ footer {
     } 
     #weapons {
         display: block;
-
+    
     }
 }
